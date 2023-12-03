@@ -1,0 +1,12 @@
+
+C
+java:S5411!"(Use a primitive boolean expression here.(¼¾°”ùÿÿÿÿ
+=
+java:S5411A"(Use a primitive boolean expression here.(²´¹Q
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤…´»ûÿÿÿÿ
+g
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÙÜîx
+@
+java:S34573"%String contains no format specifiers.(ÊÁ èÿÿÿÿÿ
+h
+java:S6204="RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¦®Ö¸
