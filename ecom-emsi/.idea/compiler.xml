@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consul-config-service-test" />
+        <module name="config-service" />
+        <module name="customer-service" />
+        <module name="ms-vault" />
+        <module name="order-service" />
+        <module name="inventoryMS" />
+        <module name="gateway" />
+        <module name="discovery-service" />
+        <module name="billing" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="billing" target="17" />
+      <module name="config-service" target="17" />
+      <module name="consul-config-service-test" target="17" />
+      <module name="customer-service" target="17" />
+      <module name="discovery-service" target="17" />
+      <module name="gateway" target="17" />
+      <module name="inventoryMS" target="17" />
+      <module name="microServices1" target="17" />
+      <module name="microServices2" target="17" />
+      <module name="ms-vault" target="17" />
+      <module name="order-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="billing" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="consul-config-service-test" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="inventoryMS" options="-parameters" />
+      <module name="microServices1" options="-parameters" />
+      <module name="microServices2" options="-parameters" />
+      <module name="ms-vault" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+    </option>
+  </component>
+</project>
